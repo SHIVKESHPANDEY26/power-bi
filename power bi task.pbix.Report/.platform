@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "power bi task.pbix"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "50999c53-8c5c-4d18-ac6f-adfe9c0aaf99"
+  }
+}

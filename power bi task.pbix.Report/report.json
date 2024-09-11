@@ -1,0 +1,149 @@
+{
+  "config": "{\"version\":\"5.57\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU08\",\"version\":\"5.57\",\"type\":2},\"customTheme\":{\"name\":\"AccessibleOrchid\",\"version\":\"5.57\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"slowDataSourceSettings\":{\"isCrossHighlightingDisabled\":false,\"isSlicerSelectionsButtonEnabled\":false,\"isFilterSelectionsButtonEnabled\":false,\"isFieldWellButtonEnabled\":false,\"isApplyAllButtonEnabled\":false},\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"visible\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "pods": [
+    {
+      "boundSection": "3a648841e1922a0907b8",
+      "config": "{}",
+      "name": "62b394c4d3b9db0b3d3e"
+    }
+  ],
+  "publicCustomVisuals": [
+    "SimpleWaterfall"
+  ],
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "AccessibleOrchid",
+            "path": "BuiltInThemes/AccessibleOrchid.json",
+            "type": 201
+          },
+          {
+            "name": "CY24SU08",
+            "path": "BaseThemes/CY24SU08.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    },
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "Screenshot_2024-09-10_1409220975654069283316.png",
+            "path": "Screenshot_2024-09-10_1409220975654069283316.png",
+            "type": 100
+          },
+          {
+            "name": "jman-logo6345299265005158.jpg",
+            "path": "jman-logo6345299265005158.jpg",
+            "type": 100
+          }
+        ],
+        "name": "RegisteredResources",
+        "type": 1
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "3a648841e1922a0907b8",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"3d46b4030dd90ac7a4c0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":486.66666666666663,\"z\":4000,\"width\":1090,\"height\":233.33333333333331,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"snowball_output1 2.month_roll.Variation.Date Hierarchy.Year\"},{\"queryRef\":\"snowball_output1 2.month_roll.Variation.Date Hierarchy.Quarter\"},{\"queryRef\":\"snowball_output1 2.period_type\"},{\"queryRef\":\"snowball_output1 2.new_customer_percent\"},{\"queryRef\":\"snowball_output1 2.arr_percent\"},{\"queryRef\":\"snowball_output1 2.nrr_percent\"},{\"queryRef\":\"snowball_output1 2.customer_churn_percent\"},{\"queryRef\":\"snowball_output1 2.downsell_percent\"},{\"queryRef\":\"snowball_output1 2.product_churn_percent\"},{\"queryRef\":\"snowball_output1 2.cross_sell_percent\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"snowball_output1 2\",\"Type\":0}],\"Select\":[{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Name\":\"Variation\",\"Property\":\"month_roll\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Year\"},\"Name\":\"snowball_output1 2.month_roll.Variation.Date Hierarchy.Year\",\"NativeReferenceName\":\"month_roll Year\"},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Name\":\"Variation\",\"Property\":\"month_roll\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Quarter\"},\"Name\":\"snowball_output1 2.month_roll.Variation.Date Hierarchy.Quarter\",\"NativeReferenceName\":\"month_roll Quarter\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"period_type\"},\"Name\":\"snowball_output1 2.period_type\",\"NativeReferenceName\":\"period_type\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"new_customer_percent\"},\"Name\":\"snowball_output1 2.new_customer_percent\",\"NativeReferenceName\":\"new_customer_percent\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"arr_percent\"},\"Name\":\"snowball_output1 2.arr_percent\",\"NativeReferenceName\":\"arr_percent\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"nrr_percent\"},\"Name\":\"snowball_output1 2.nrr_percent\",\"NativeReferenceName\":\"nrr_percent\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"customer_churn_percent\"},\"Name\":\"snowball_output1 2.customer_churn_percent\",\"NativeReferenceName\":\"customer_churn_percent\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"downsell_percent\"},\"Name\":\"snowball_output1 2.downsell_percent\",\"NativeReferenceName\":\"downsell_percent\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"product_churn_percent\"},\"Name\":\"snowball_output1 2.product_churn_percent\",\"NativeReferenceName\":\"product_churn_percent\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"cross_sell_percent\"},\"Name\":\"snowball_output1 2.cross_sell_percent\",\"NativeReferenceName\":\"cross_sell_percent\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"customer_churn_percent\"}}}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 233.33,
+          "width": 1090.00,
+          "x": 0.00,
+          "y": 486.67,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"4ca1ba355665dc03eeb0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":78.88888888888889,\"z\":0,\"width\":1090,\"height\":407.77777777777777,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"SimpleWaterfall\",\"projections\":{\"measure\":[{\"queryRef\":\"Sum(snowball_output1 2.total_bop_arr)\"},{\"queryRef\":\"Sum(snowball_output1 2.total_downsell)\"},{\"queryRef\":\"Sum(snowball_output1 2.total_customer_churn)\"},{\"queryRef\":\"Sum(snowball_output1 2.total_product_churn)\"},{\"queryRef\":\"Sum(snowball_output1 2.total_grr)\"},{\"queryRef\":\"Sum(snowball_output1 2.total_upsell)\"},{\"queryRef\":\"Sum(snowball_output1 2.total_cross_sell)\"},{\"queryRef\":\"Sum(snowball_output1 2.total_nrr)\"},{\"queryRef\":\"Sum(snowball_output1 2.total_new_customer)\"},{\"queryRef\":\"Sum(snowball_output1 2.total_eop_arr)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"snowball_output1 2\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"total_bop_arr\"}},\"Function\":0},\"Name\":\"Sum(snowball_output1 2.total_bop_arr)\",\"NativeReferenceName\":\"BOP\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"total_downsell\"}},\"Function\":0},\"Name\":\"Sum(snowball_output1 2.total_downsell)\",\"NativeReferenceName\":\"DOWNSELL\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"total_customer_churn\"}},\"Function\":0},\"Name\":\"Sum(snowball_output1 2.total_customer_churn)\",\"NativeReferenceName\":\"CUSTOMER CHURN\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"total_product_churn\"}},\"Function\":0},\"Name\":\"Sum(snowball_output1 2.total_product_churn)\",\"NativeReferenceName\":\"PRODUCT CHURN\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"total_grr\"}},\"Function\":0},\"Name\":\"Sum(snowball_output1 2.total_grr)\",\"NativeReferenceName\":\"GRR\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"total_new_customer\"}},\"Function\":0},\"Name\":\"Sum(snowball_output1 2.total_new_customer)\",\"NativeReferenceName\":\"NEW LOGOS\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"total_cross_sell\"}},\"Function\":0},\"Name\":\"Sum(snowball_output1 2.total_cross_sell)\",\"NativeReferenceName\":\"CROSS SELL\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"total_nrr\"}},\"Function\":0},\"Name\":\"Sum(snowball_output1 2.total_nrr)\",\"NativeReferenceName\":\"NRR\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"total_upsell\"}},\"Function\":0},\"Name\":\"Sum(snowball_output1 2.total_upsell)\",\"NativeReferenceName\":\"UPSELL\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"total_eop_arr\"}},\"Function\":0},\"Name\":\"Sum(snowball_output1 2.total_eop_arr)\",\"NativeReferenceName\":\"EOP\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"total_bop_arr\"}},\"Function\":0}}}]},\"columnProperties\":{\"Sum(snowball_output1 2.total_bop_arr)\":{\"displayName\":\"BOP\"},\"Sum(snowball_output1 2.total_downsell)\":{\"displayName\":\"DOWNSELL\"},\"Sum(snowball_output1 2.total_customer_churn)\":{\"displayName\":\"CUSTOMER CHURN\"},\"Sum(snowball_output1 2.total_product_churn)\":{\"displayName\":\"PRODUCT CHURN\"},\"Sum(snowball_output1 2.total_grr)\":{\"displayName\":\"GRR\"},\"Sum(snowball_output1 2.total_upsell)\":{\"displayName\":\"UPSELL\"},\"Sum(snowball_output1 2.total_new_customer)\":{\"displayName\":\"NEW LOGOS\"},\"Sum(snowball_output1 2.total_cross_sell)\":{\"displayName\":\"CROSS SELL\"},\"Sum(snowball_output1 2.total_nrr)\":{\"displayName\":\"NRR\"},\"Sum(snowball_output1 2.total_eop_arr)\":{\"displayName\":\"EOP\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"definePillars\":[{\"properties\":{\"pillars\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}},\"selector\":{\"metadata\":\"Sum(snowball_output1 2.total_bop_arr)\"}},{\"properties\":{\"pillars\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}},\"selector\":{\"metadata\":\"Sum(snowball_output1 2.total_downsell)\"}},{\"properties\":{\"pillars\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}},\"selector\":{\"metadata\":\"Sum(snowball_output1 2.total_customer_churn)\"}},{\"properties\":{\"pillars\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}},\"selector\":{\"metadata\":\"Sum(snowball_output1 2.total_product_churn)\"}},{\"properties\":{\"pillars\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}},\"selector\":{\"metadata\":\"Sum(snowball_output1 2.total_grr)\"}},{\"properties\":{\"pillars\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}},\"selector\":{\"metadata\":\"Sum(snowball_output1 2.total_upsell)\"}},{\"properties\":{\"pillars\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}},\"selector\":{\"metadata\":\"Sum(snowball_output1 2.total_new_customer)\"}},{\"properties\":{\"pillars\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}},\"selector\":{\"metadata\":\"Sum(snowball_output1 2.total_cross_sell)\"}},{\"properties\":{\"pillars\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}},\"selector\":{\"metadata\":\"Sum(snowball_output1 2.total_nrr)\"}},{\"properties\":{\"pillars\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}},\"selector\":{\"metadata\":\"Sum(snowball_output1 2.total_eop_arr)\"}}],\"margins\":[{\"properties\":{\"topMargin\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"Legend\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}}}}],\"LabelsFormatting\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"labelPosition\":{\"expr\":{\"Literal\":{\"Value\":\"'Inside base'\"}}}}}],\"yAxisFormatting\":[{\"properties\":{\"showZeroAxisGridLine\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"sentimentColor\":[{\"properties\":{\"sentimentColorTotal\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#33A156'\"}}}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 407.78,
+          "width": 1090.00,
+          "x": 0.00,
+          "y": 78.89,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"73e5ea689c8b4301a0d0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":6000,\"width\":1280,\"height\":88.88888888888889,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"Screenshot_2024-09-10_1409220975654069283316.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 88.89,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"7d81be3470ad3646dd80\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1204.4444444444443,\"y\":6.666666666666666,\"z\":8000,\"width\":67.77777777777777,\"height\":74.44444444444444,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"jman-logo6345299265005158.jpg\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 74.44,
+          "width": 67.78,
+          "x": 1204.44,
+          "y": 6.67,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"91779400010779ae4ac9\",\"layouts\":[{\"id\":0,\"position\":{\"x\":413.3333333333333,\"y\":14.444444444444445,\"z\":7000,\"width\":471.1111111111111,\"height\":60,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Customer Revenue Bridge Dashboard\",\"textStyle\":{\"fontSize\":\"20pt\",\"color\":\"#ffffff\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#000000'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 60.00,
+          "width": 471.11,
+          "x": 413.33,
+          "y": 14.44,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"bcda13c9211e72a690b8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1090,\"y\":78.88888888888889,\"z\":5000,\"width\":190,\"height\":184.44444444444443,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"Sum(snowball_output1 2.total_eop_arr)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"snowball_output1 2\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"total_eop_arr\"}},\"Function\":0},\"Name\":\"Sum(snowball_output1 2.total_eop_arr)\",\"NativeReferenceName\":\"EOP\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"total_eop_arr\"}},\"Function\":0}}}]},\"columnProperties\":{\"Sum(snowball_output1 2.total_eop_arr)\":{\"displayName\":\"EOP\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 184.44,
+          "width": 190.00,
+          "x": 1090.00,
+          "y": 78.89,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"dbebe8e69026bab0dc0a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1090,\"y\":407.77777777777777,\"z\":3000,\"width\":190,\"height\":156.66666666666666,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"snowball_output1 2.month_roll.Variation.Date Hierarchy.Year\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"snowball_output1 2\",\"Type\":0}],\"Select\":[{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Name\":\"Variation\",\"Property\":\"month_roll\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Year\"},\"Name\":\"snowball_output1 2.month_roll.Variation.Date Hierarchy.Year\",\"NativeReferenceName\":\"month_roll Year\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Name\":\"Variation\",\"Property\":\"month_roll\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Year\"}}}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"snowball_output1 2.month_roll.Variation.Date Hierarchy.Year\"],\"isCollapsed\":true,\"identityKeys\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"LocalDateTable_67894202-47c1-47e8-9ced-f7bd3145a3d0\"}},\"Property\":\"Year\"}}],\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 156.67,
+          "width": 190.00,
+          "x": 1090.00,
+          "y": 407.78,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"e9426782001486e0b3de\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1090,\"y\":564.4444444444445,\"z\":2000,\"width\":190,\"height\":155.55555555555554,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"snowball_output1 2.month_roll\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"snowball_output1 2\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"month_roll\"},\"Name\":\"snowball_output1 2.month_roll\",\"NativeReferenceName\":\"Month Role\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"month_roll\"}}}]},\"columnProperties\":{\"snowball_output1 2.month_roll\":{\"displayName\":\"Month Role\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Between'\"}}}}}],\"general\":[{\"properties\":{}}],\"slider\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 155.56,
+          "width": 190.00,
+          "x": 1090.00,
+          "y": 564.44,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"f5f726de080742954002\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1090,\"y\":263.3333333333333,\"z\":1000,\"width\":190,\"height\":144.44444444444443,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"snowball_output1 2.period_type\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"snowball_output1 2\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"period_type\"},\"Name\":\"snowball_output1 2.period_type\",\"NativeReferenceName\":\"Period \"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"period_type\"}}}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"snowball_output1 2.period_type\"],\"isCollapsed\":true,\"identityKeys\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"snowball_output1 2\"}},\"Property\":\"period_type\"}}],\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"columnProperties\":{\"snowball_output1 2.period_type\":{\"displayName\":\"Period \"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"data\":[{\"properties\":{}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"header\":[{\"properties\":{\"outlineStyle\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 144.44,
+          "width": 190.00,
+          "x": 1090.00,
+          "y": 263.33,
+          "z": 1000.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ],
+  "theme": "AccessibleOrchid"
+}

@@ -1,0 +1,3912 @@
+{
+  "compatibilityLevel": 1550,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"snowball_output1 2\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.132.1053.0 (24.08)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "snowball_output1_2": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "snowball_output1 2"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "snowball_output1 2": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "snowball_output1_2.arr_percent": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "snowball_output1 2",
+                    "ConceptualProperty": "arr_percent"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "arr percent": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "arr_percent": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "arr percentage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "arr ratio": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "arr percentile": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "arr part": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "arr proportion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "arr fraction": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  }
+                ]
+              },
+              "snowball_output1_2.cross_sell_percent": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "snowball_output1 2",
+                    "ConceptualProperty": "cross_sell_percent"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "cross sell percent": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "cross_sell_percent": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "sell percent": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "cross sell percentage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "cross sell ratio": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "cross sell percentile": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "sell percentage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "sell ratio": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "sell percentile": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "symbol sell percent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.468
+                    }
+                  },
+                  {
+                    "mark sell percent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.468
+                    }
+                  },
+                  {
+                    "sign sell percent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.468
+                    }
+                  },
+                  {
+                    "cross sell part": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.468
+                    }
+                  }
+                ]
+              },
+              "snowball_output1_2.customer_churn_percent": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "snowball_output1 2",
+                    "ConceptualProperty": "customer_churn_percent"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "customer churn percent": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "customer_churn_percent": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "churn percent": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "client churn percent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "consumer churn percent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "user churn percent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "buyer churn percent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "patron churn percent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "purchaser churn percent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "shopper churn percent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "customer churn percentage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "customer churn ratio": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "customer churn percentile": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  }
+                ]
+              },
+              "snowball_output1_2.downsell_percent": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "snowball_output1 2",
+                    "ConceptualProperty": "downsell_percent"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "downsell percent": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "downsell_percent": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "downsell percentage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "downsell ratio": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "downsell percentile": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "downsell part": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "downsell proportion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "downsell fraction": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  }
+                ]
+              },
+              "snowball_output1_2.grr_percent": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "snowball_output1 2",
+                    "ConceptualProperty": "grr_percent"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "grr percent": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "grr_percent": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "grr percentage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "grr ratio": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "grr percentile": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "grr part": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "grr proportion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "grr fraction": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  }
+                ]
+              },
+              "snowball_output1_2.month_roll": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "snowball_output1 2",
+                    "ConceptualProperty": "month_roll"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "month roll": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "month_roll": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  },
+                  {
+                    "roll": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "mth roll": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "month reel": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "month cylinder": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "month spool": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "month tube": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "reel": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "cylinder": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "spool": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "tube": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "Month Role": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "snowball_output1_2.month_roll.variation.date_hierarchy": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "snowball_output1 2",
+                    "Hierarchy": "Date Hierarchy",
+                    "VariationSet": "Variation",
+                    "VariationSource": "month_roll"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "month roll date hierarchy": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date hierarchy": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "roll date hierarchy": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "snowball_output1_2.month_roll.variation.date_hierarchy.day": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "snowball_output1 2",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Day",
+                    "VariationSet": "Variation",
+                    "VariationSource": "month_roll"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "month roll day": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "day": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "roll day": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "mth roll day": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  }
+                ]
+              },
+              "snowball_output1_2.month_roll.variation.date_hierarchy.month": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "snowball_output1 2",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Month",
+                    "VariationSet": "Variation",
+                    "VariationSource": "month_roll"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "month roll month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "roll month": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "month roll mth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "roll mth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "mth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "mth roll month": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  }
+                ]
+              },
+              "snowball_output1_2.month_roll.variation.date_hierarchy.quarter": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "snowball_output1 2",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Quarter",
+                    "VariationSet": "Variation",
+                    "VariationSource": "month_roll"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "month roll quarter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "quarter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "roll quarter": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "month roll qtr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.846
+                    }
+                  },
+                  {
+                    "roll qtr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.833
+                    }
+                  },
+                  {
+                    "qtr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.818
+                    }
+                  },
+                  {
+                    "mth roll quarter": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  }
+                ]
+              },
+              "snowball_output1_2.month_roll.variation.date_hierarchy.year": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "snowball_output1 2",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Year",
+                    "VariationSet": "Variation",
+                    "VariationSource": "month_roll"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "month roll year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "roll year": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "month roll yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "roll yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "mth roll year": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  }
+                ]
+              },
+              "snowball_output1_2.new_customer_percent": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "snowball_output1 2",
+                    "ConceptualProperty": "new_customer_percent"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "new customer percent": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "new_customer_percent": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "customer percent": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "new client percent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "new consumer percent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "new user percent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "new buyer percent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "new patron percent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "new purchaser percent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "new shopper percent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "client percent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "consumer percent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "user percent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  }
+                ]
+              },
+              "snowball_output1_2.nrr_percent": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "snowball_output1 2",
+                    "ConceptualProperty": "nrr_percent"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "nrr percent": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "nrr_percent": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "nrr percentage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "nrr ratio": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "nrr percentile": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "nrr part": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "nrr proportion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "nrr fraction": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  }
+                ]
+              },
+              "snowball_output1_2.period_type": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "snowball_output1 2",
+                    "ConceptualProperty": "period_type"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "period type": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "period_type": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "type": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "period category": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "period genre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "period manner": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "period variety": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "category": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "genre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "manner": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "variety": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "period brand": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "period class": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "Period": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "snowball_output1_2.product_churn_percent": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "snowball_output1 2",
+                    "ConceptualProperty": "product_churn_percent"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "product churn percent": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "product_churn_percent": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "churn percent": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "artifact churn percent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "item churn percent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "merchandise churn percent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "produce churn percent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "product churn percentage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "product churn ratio": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "product churn percentile": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "churn percentage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "churn ratio": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "churn percentile": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  }
+                ]
+              },
+              "snowball_output1_2.total_bop_arr": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "snowball_output1 2",
+                    "ConceptualProperty": "total_bop_arr"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "total bop arr": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "total_bop_arr": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "aggregate bop arr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "overall bop arr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "snowball_output1_2.total_cross_sell": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "snowball_output1 2",
+                    "ConceptualProperty": "total_cross_sell"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "total cross sell": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "total_cross_sell": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "sell": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "cross sell": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "aggregate cross sell": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "overall cross sell": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "symbol sell": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "mark sell": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "sign sell": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  }
+                ]
+              },
+              "snowball_output1_2.total_customer_churn": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "snowball_output1 2",
+                    "ConceptualProperty": "total_customer_churn"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "total customer churn": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "total_customer_churn": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "churn": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "customer churn": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "total client churn": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "total consumer churn": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "total user churn": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "total buyer churn": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "total patron churn": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "total purchaser churn": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "total shopper churn": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "client churn": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "consumer churn": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "user churn": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  }
+                ]
+              },
+              "snowball_output1_2.total_downsell": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "snowball_output1 2",
+                    "ConceptualProperty": "total_downsell"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "total downsell": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "total_downsell": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "aggregate downsell": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "overall downsell": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "snowball_output1_2.total_eop_arr": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "snowball_output1 2",
+                    "ConceptualProperty": "total_eop_arr"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "total eop arr": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "total_eop_arr": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "aggregate eop arr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "overall eop arr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "snowball_output1_2.total_grr": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "snowball_output1 2",
+                    "ConceptualProperty": "total_grr"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "total grr": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "total_grr": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "aggregate grr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "overall grr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "snowball_output1_2.total_new_customer": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "snowball_output1 2",
+                    "ConceptualProperty": "total_new_customer"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "total new customer": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "total_new_customer": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "total new client": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "total new consumer": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "total new user": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "total new buyer": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "total new patron": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "total new purchaser": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "total new shopper": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "aggregate new customer": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "overall new customer": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "snowball_output1_2.total_nrr": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "snowball_output1 2",
+                    "ConceptualProperty": "total_nrr"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "total nrr": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "total_nrr": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "aggregate nrr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "overall nrr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "snowball_output1_2.total_product_churn": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "snowball_output1 2",
+                    "ConceptualProperty": "total_product_churn"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "total product churn": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "total_product_churn": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "churn": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "product churn": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "total artifact churn": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "artifact churn": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "aggregate product churn": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "overall product churn": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "total item churn": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "total merchandise churn": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "total produce churn": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "item churn": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "merchandise churn": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "produce churn": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "snowball_output1_2.total_upsell": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "snowball_output1 2",
+                    "ConceptualProperty": "total_upsell"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "total upsell": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "total_upsell": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "aggregate upsell": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "overall upsell": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "snowball_output1_2.upsell_percent": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "snowball_output1 2",
+                    "ConceptualProperty": "upsell_percent"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "upsell percent": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "upsell_percent": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "upsell percentage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "upsell ratio": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "upsell percentile": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "upsell part": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "upsell proportion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "upsell fraction": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "snowball_output1_2_has_arr_percent": {
+                "Binding": {
+                  "ConceptualEntity": "snowball_output1 2"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "snowball_output1_2.arr_percent"
+                      },
+                      "Subject": {
+                        "Role": "snowball_output1_2"
+                      }
+                    },
+                    "ID": "snowball_output1_2_have_arr_percent",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "snowball_output1_2": {
+                    "Target": {
+                      "Entity": "snowball_output1_2"
+                    }
+                  },
+                  "snowball_output1_2.arr_percent": {
+                    "Target": {
+                      "Entity": "snowball_output1_2.arr_percent"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "snowball_output1_2_has_cross_sell_percent": {
+                "Binding": {
+                  "ConceptualEntity": "snowball_output1 2"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "snowball_output1_2.cross_sell_percent"
+                      },
+                      "Subject": {
+                        "Role": "snowball_output1_2"
+                      }
+                    },
+                    "ID": "snowball_output1_2_have_cross_sell_percent",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "snowball_output1_2_are_cross_cross_sell_percent",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "snowball_output1_2.cross_sell_percent"
+                      },
+                      "Prepositions": [
+                        {
+                          "cross": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "snowball_output1_2"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "snowball_output1_2": {
+                    "Target": {
+                      "Entity": "snowball_output1_2"
+                    }
+                  },
+                  "snowball_output1_2.cross_sell_percent": {
+                    "Target": {
+                      "Entity": "snowball_output1_2.cross_sell_percent"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "snowball_output1_2_has_customer_churn_percent": {
+                "Binding": {
+                  "ConceptualEntity": "snowball_output1 2"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "snowball_output1_2.customer_churn_percent"
+                      },
+                      "Subject": {
+                        "Role": "snowball_output1_2"
+                      }
+                    },
+                    "ID": "snowball_output1_2_have_customer_churn_percent",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "snowball_output1_2": {
+                    "Target": {
+                      "Entity": "snowball_output1_2"
+                    }
+                  },
+                  "snowball_output1_2.customer_churn_percent": {
+                    "Target": {
+                      "Entity": "snowball_output1_2.customer_churn_percent"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "snowball_output1_2_has_downsell_percent": {
+                "Binding": {
+                  "ConceptualEntity": "snowball_output1 2"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "snowball_output1_2.downsell_percent"
+                      },
+                      "Subject": {
+                        "Role": "snowball_output1_2"
+                      }
+                    },
+                    "ID": "snowball_output1_2_have_downsell_percent",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "snowball_output1_2": {
+                    "Target": {
+                      "Entity": "snowball_output1_2"
+                    }
+                  },
+                  "snowball_output1_2.downsell_percent": {
+                    "Target": {
+                      "Entity": "snowball_output1_2.downsell_percent"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "snowball_output1_2_has_grr_percent": {
+                "Binding": {
+                  "ConceptualEntity": "snowball_output1 2"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "snowball_output1_2.grr_percent"
+                      },
+                      "Subject": {
+                        "Role": "snowball_output1_2"
+                      }
+                    },
+                    "ID": "snowball_output1_2_have_grr_percent",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "snowball_output1_2": {
+                    "Target": {
+                      "Entity": "snowball_output1_2"
+                    }
+                  },
+                  "snowball_output1_2.grr_percent": {
+                    "Target": {
+                      "Entity": "snowball_output1_2.grr_percent"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "snowball_output1_2_has_month_roll": {
+                "Binding": {
+                  "ConceptualEntity": "snowball_output1 2"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "snowball_output1_2.month_roll"
+                      },
+                      "Subject": {
+                        "Role": "snowball_output1_2"
+                      }
+                    },
+                    "ID": "snowball_output1_2_have_month_rolls",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "snowball_output1_2": {
+                    "Target": {
+                      "Entity": "snowball_output1_2"
+                    }
+                  },
+                  "snowball_output1_2.month_roll": {
+                    "Target": {
+                      "Entity": "snowball_output1_2.month_roll"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "snowball_output1_2_has_new_customer_percent": {
+                "Binding": {
+                  "ConceptualEntity": "snowball_output1 2"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "snowball_output1_2.new_customer_percent"
+                      },
+                      "Subject": {
+                        "Role": "snowball_output1_2"
+                      }
+                    },
+                    "ID": "snowball_output1_2_have_new_customer_percent",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "snowball_output1_2": {
+                    "Target": {
+                      "Entity": "snowball_output1_2"
+                    }
+                  },
+                  "snowball_output1_2.new_customer_percent": {
+                    "Target": {
+                      "Entity": "snowball_output1_2.new_customer_percent"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "snowball_output1_2_has_nrr_percent": {
+                "Binding": {
+                  "ConceptualEntity": "snowball_output1 2"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "snowball_output1_2.nrr_percent"
+                      },
+                      "Subject": {
+                        "Role": "snowball_output1_2"
+                      }
+                    },
+                    "ID": "snowball_output1_2_have_nrr_percent",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "snowball_output1_2": {
+                    "Target": {
+                      "Entity": "snowball_output1_2"
+                    }
+                  },
+                  "snowball_output1_2.nrr_percent": {
+                    "Target": {
+                      "Entity": "snowball_output1_2.nrr_percent"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "snowball_output1_2_has_period_type": {
+                "Binding": {
+                  "ConceptualEntity": "snowball_output1 2"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "snowball_output1_2.period_type"
+                      },
+                      "Subject": {
+                        "Role": "snowball_output1_2"
+                      }
+                    },
+                    "ID": "snowball_output1_2_have_period_types",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "snowball_output1_2": {
+                    "Target": {
+                      "Entity": "snowball_output1_2"
+                    }
+                  },
+                  "snowball_output1_2.period_type": {
+                    "Target": {
+                      "Entity": "snowball_output1_2.period_type"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "snowball_output1_2_has_product_churn_percent": {
+                "Binding": {
+                  "ConceptualEntity": "snowball_output1 2"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "snowball_output1_2.product_churn_percent"
+                      },
+                      "Subject": {
+                        "Role": "snowball_output1_2"
+                      }
+                    },
+                    "ID": "snowball_output1_2_have_product_churn_percent",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "snowball_output1_2": {
+                    "Target": {
+                      "Entity": "snowball_output1_2"
+                    }
+                  },
+                  "snowball_output1_2.product_churn_percent": {
+                    "Target": {
+                      "Entity": "snowball_output1_2.product_churn_percent"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "snowball_output1_2_has_total_bop_arr": {
+                "Binding": {
+                  "ConceptualEntity": "snowball_output1 2"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "snowball_output1_2.total_bop_arr"
+                      },
+                      "Subject": {
+                        "Role": "snowball_output1_2"
+                      }
+                    },
+                    "ID": "snowball_output1_2_have_total_bop_arrs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "snowball_output1_2": {
+                    "Target": {
+                      "Entity": "snowball_output1_2"
+                    }
+                  },
+                  "snowball_output1_2.total_bop_arr": {
+                    "Target": {
+                      "Entity": "snowball_output1_2.total_bop_arr"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "snowball_output1_2_has_total_cross_sell": {
+                "Binding": {
+                  "ConceptualEntity": "snowball_output1 2"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "snowball_output1_2.total_cross_sell"
+                      },
+                      "Subject": {
+                        "Role": "snowball_output1_2"
+                      }
+                    },
+                    "ID": "snowball_output1_2_have_total_cross_sell",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "snowball_output1_2": {
+                    "Target": {
+                      "Entity": "snowball_output1_2"
+                    }
+                  },
+                  "snowball_output1_2.total_cross_sell": {
+                    "Target": {
+                      "Entity": "snowball_output1_2.total_cross_sell"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "snowball_output1_2_has_total_customer_churn": {
+                "Binding": {
+                  "ConceptualEntity": "snowball_output1 2"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "snowball_output1_2.total_customer_churn"
+                      },
+                      "Subject": {
+                        "Role": "snowball_output1_2"
+                      }
+                    },
+                    "ID": "snowball_output1_2_have_total_customer_churns",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "snowball_output1_2": {
+                    "Target": {
+                      "Entity": "snowball_output1_2"
+                    }
+                  },
+                  "snowball_output1_2.total_customer_churn": {
+                    "Target": {
+                      "Entity": "snowball_output1_2.total_customer_churn"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "snowball_output1_2_has_total_downsell": {
+                "Binding": {
+                  "ConceptualEntity": "snowball_output1 2"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "snowball_output1_2.total_downsell"
+                      },
+                      "Subject": {
+                        "Role": "snowball_output1_2"
+                      }
+                    },
+                    "ID": "snowball_output1_2_have_total_downsells",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "snowball_output1_2": {
+                    "Target": {
+                      "Entity": "snowball_output1_2"
+                    }
+                  },
+                  "snowball_output1_2.total_downsell": {
+                    "Target": {
+                      "Entity": "snowball_output1_2.total_downsell"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "snowball_output1_2_has_total_eop_arr": {
+                "Binding": {
+                  "ConceptualEntity": "snowball_output1 2"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "snowball_output1_2.total_eop_arr"
+                      },
+                      "Subject": {
+                        "Role": "snowball_output1_2"
+                      }
+                    },
+                    "ID": "snowball_output1_2_have_total_eop_arrs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "snowball_output1_2": {
+                    "Target": {
+                      "Entity": "snowball_output1_2"
+                    }
+                  },
+                  "snowball_output1_2.total_eop_arr": {
+                    "Target": {
+                      "Entity": "snowball_output1_2.total_eop_arr"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "snowball_output1_2_has_total_grr": {
+                "Binding": {
+                  "ConceptualEntity": "snowball_output1 2"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "snowball_output1_2.total_grr"
+                      },
+                      "Subject": {
+                        "Role": "snowball_output1_2"
+                      }
+                    },
+                    "ID": "snowball_output1_2_have_total_grrs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "snowball_output1_2": {
+                    "Target": {
+                      "Entity": "snowball_output1_2"
+                    }
+                  },
+                  "snowball_output1_2.total_grr": {
+                    "Target": {
+                      "Entity": "snowball_output1_2.total_grr"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "snowball_output1_2_has_total_new_customer": {
+                "Binding": {
+                  "ConceptualEntity": "snowball_output1 2"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "snowball_output1_2.total_new_customer"
+                      },
+                      "Subject": {
+                        "Role": "snowball_output1_2"
+                      }
+                    },
+                    "ID": "snowball_output1_2_have_total_new_customers",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "snowball_output1_2": {
+                    "Target": {
+                      "Entity": "snowball_output1_2"
+                    }
+                  },
+                  "snowball_output1_2.total_new_customer": {
+                    "Target": {
+                      "Entity": "snowball_output1_2.total_new_customer"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "snowball_output1_2_has_total_nrr": {
+                "Binding": {
+                  "ConceptualEntity": "snowball_output1 2"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "snowball_output1_2.total_nrr"
+                      },
+                      "Subject": {
+                        "Role": "snowball_output1_2"
+                      }
+                    },
+                    "ID": "snowball_output1_2_have_total_nrrs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "snowball_output1_2": {
+                    "Target": {
+                      "Entity": "snowball_output1_2"
+                    }
+                  },
+                  "snowball_output1_2.total_nrr": {
+                    "Target": {
+                      "Entity": "snowball_output1_2.total_nrr"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "snowball_output1_2_has_total_product_churn": {
+                "Binding": {
+                  "ConceptualEntity": "snowball_output1 2"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "snowball_output1_2.total_product_churn"
+                      },
+                      "Subject": {
+                        "Role": "snowball_output1_2"
+                      }
+                    },
+                    "ID": "snowball_output1_2_have_total_product_churns",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "snowball_output1_2": {
+                    "Target": {
+                      "Entity": "snowball_output1_2"
+                    }
+                  },
+                  "snowball_output1_2.total_product_churn": {
+                    "Target": {
+                      "Entity": "snowball_output1_2.total_product_churn"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "snowball_output1_2_has_total_upsell": {
+                "Binding": {
+                  "ConceptualEntity": "snowball_output1 2"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "snowball_output1_2.total_upsell"
+                      },
+                      "Subject": {
+                        "Role": "snowball_output1_2"
+                      }
+                    },
+                    "ID": "snowball_output1_2_have_total_upsell",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "snowball_output1_2": {
+                    "Target": {
+                      "Entity": "snowball_output1_2"
+                    }
+                  },
+                  "snowball_output1_2.total_upsell": {
+                    "Target": {
+                      "Entity": "snowball_output1_2.total_upsell"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "snowball_output1_2_has_upsell_percent": {
+                "Binding": {
+                  "ConceptualEntity": "snowball_output1 2"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "snowball_output1_2.upsell_percent"
+                      },
+                      "Subject": {
+                        "Role": "snowball_output1_2"
+                      }
+                    },
+                    "ID": "snowball_output1_2_have_upsell_percent",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "snowball_output1_2": {
+                    "Target": {
+                      "Entity": "snowball_output1_2"
+                    }
+                  },
+                  "snowball_output1_2.upsell_percent": {
+                    "Target": {
+                      "Entity": "snowball_output1_2.upsell_percent"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "snowball_output1_2_month_roll_has_variation_date_hierarchy": {
+                "Binding": {
+                  "ConceptualEntity": "snowball_output1 2"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "snowball_output1_2.month_roll.variation.date_hierarchy"
+                      },
+                      "Subject": {
+                        "Role": "snowball_output1_2.month_roll"
+                      }
+                    },
+                    "ID": "month_rolls_have_month_roll_date_hierarchies",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "snowball_output1_2.month_roll": {
+                    "Target": {
+                      "Entity": "snowball_output1_2.month_roll"
+                    }
+                  },
+                  "snowball_output1_2.month_roll.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "snowball_output1_2.month_roll.variation.date_hierarchy"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "snowball_output1_2_month_roll_variation_date_hierarchy_has_day": {
+                "Binding": {
+                  "ConceptualEntity": "snowball_output1 2"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "snowball_output1_2.month_roll.variation.date_hierarchy.day"
+                      },
+                      "Subject": {
+                        "Role": "snowball_output1_2.month_roll.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "month_roll_date_hierarchies_have_month_roll_days",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "snowball_output1_2.month_roll.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "snowball_output1_2.month_roll.variation.date_hierarchy"
+                    }
+                  },
+                  "snowball_output1_2.month_roll.variation.date_hierarchy.day": {
+                    "Target": {
+                      "Entity": "snowball_output1_2.month_roll.variation.date_hierarchy.day"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "snowball_output1_2_month_roll_variation_date_hierarchy_has_month": {
+                "Binding": {
+                  "ConceptualEntity": "snowball_output1 2"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "snowball_output1_2.month_roll.variation.date_hierarchy.month"
+                      },
+                      "Subject": {
+                        "Role": "snowball_output1_2.month_roll.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "month_roll_date_hierarchies_have_month_roll_months",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "snowball_output1_2.month_roll.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "snowball_output1_2.month_roll.variation.date_hierarchy"
+                    }
+                  },
+                  "snowball_output1_2.month_roll.variation.date_hierarchy.month": {
+                    "Target": {
+                      "Entity": "snowball_output1_2.month_roll.variation.date_hierarchy.month"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "snowball_output1_2_month_roll_variation_date_hierarchy_has_quarter": {
+                "Binding": {
+                  "ConceptualEntity": "snowball_output1 2"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "snowball_output1_2.month_roll.variation.date_hierarchy.quarter"
+                      },
+                      "Subject": {
+                        "Role": "snowball_output1_2.month_roll.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "month_roll_date_hierarchies_have_month_roll_quarters",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "snowball_output1_2.month_roll.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "snowball_output1_2.month_roll.variation.date_hierarchy"
+                    }
+                  },
+                  "snowball_output1_2.month_roll.variation.date_hierarchy.quarter": {
+                    "Target": {
+                      "Entity": "snowball_output1_2.month_roll.variation.date_hierarchy.quarter"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "snowball_output1_2_month_roll_variation_date_hierarchy_has_year": {
+                "Binding": {
+                  "ConceptualEntity": "snowball_output1 2"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "snowball_output1_2.month_roll.variation.date_hierarchy.year"
+                      },
+                      "Subject": {
+                        "Role": "snowball_output1_2.month_roll.variation.date_hierarchy"
+                      }
+                    },
+                    "ID": "month_roll_date_hierarchies_have_month_roll_years",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "snowball_output1_2.month_roll.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "snowball_output1_2.month_roll.variation.date_hierarchy"
+                    }
+                  },
+                  "snowball_output1_2.month_roll.variation.date_hierarchy.year": {
+                    "Target": {
+                      "Entity": "snowball_output1_2.month_roll.variation.date_hierarchy.year"
+                    }
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "3.5.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "079563ac-a66a-47ba-b961-baed5911f123",
+        "fromColumn": "month_roll",
+        "fromTable": "snowball_output1 2",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_67894202-47c1-47e8-9ced-f7bd3145a3d0"
+      }
+    ],
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "snowball_output1 2",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "month_roll",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "d4cc5909-3362-405d-9915-738f5ca54d50",
+            "sourceColumn": "month_roll",
+            "summarizeBy": "none",
+            "variations": [
+              {
+                "name": "Variation",
+                "defaultHierarchy": {
+                  "hierarchy": "Date Hierarchy",
+                  "table": "LocalDateTable_67894202-47c1-47e8-9ced-f7bd3145a3d0"
+                },
+                "isDefault": true,
+                "relationship": "079563ac-a66a-47ba-b961-baed5911f123"
+              }
+            ]
+          },
+          {
+            "name": "period_type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5449fb59-d0e5-47d4-8ae5-5dc64b27fb73",
+            "sourceColumn": "period_type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "total_customer_churn",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "4d2a989a-50ec-454b-a326-c649ed38ce27",
+            "sourceColumn": "total_customer_churn",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "total_product_churn",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "637eb695-be83-49f2-b07d-7c523b2bb6b7",
+            "sourceColumn": "total_product_churn",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "total_downsell",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "5cdad052-36e8-42ab-b490-bbc840c0cbc0",
+            "sourceColumn": "total_downsell",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "total_grr",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "14f7b918-2c7d-400f-889b-909c31be2cec",
+            "sourceColumn": "total_grr",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "total_upsell",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "284ef7d7-09dd-4eee-ae0b-c3799fa02836",
+            "sourceColumn": "total_upsell",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "total_cross_sell",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "74c4063d-ec0f-41ad-963f-b3daf3d47954",
+            "sourceColumn": "total_cross_sell",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "total_nrr",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "a97c8b51-1cbb-41cd-9781-95be419bbb98",
+            "sourceColumn": "total_nrr",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "total_new_customer",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "5c397652-92a4-4414-a059-62e0abdc2276",
+            "sourceColumn": "total_new_customer",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "total_bop_arr",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f71c450d-c18f-4881-a69c-3ebee4faaf91",
+            "sourceColumn": "total_bop_arr",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "total_eop_arr",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ab78e351-5309-492c-af9a-30434b81f9d9",
+            "sourceColumn": "total_eop_arr",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "customer_churn_percent",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1c972e73-1459-4b76-a894-867208f6491f",
+            "sourceColumn": "customer_churn_percent",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "product_churn_percent",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "eb8f94b4-cae4-461b-958a-b57cd560aeb6",
+            "sourceColumn": "product_churn_percent",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "downsell_percent",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "dfbf0026-b9f3-48cc-81ad-7948390e57e0",
+            "sourceColumn": "downsell_percent",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "grr_percent",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "65f40b36-b1de-448e-8f2f-653a155f5a13",
+            "sourceColumn": "grr_percent",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "upsell_percent",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3cc6bd13-5a68-45da-aaf2-ffd2bd940605",
+            "sourceColumn": "upsell_percent",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "cross_sell_percent",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b67c8f90-908f-433c-8e49-b93e7bd08904",
+            "sourceColumn": "cross_sell_percent",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "nrr_percent",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "43ada730-af6a-48e1-9cee-f45a542dac73",
+            "sourceColumn": "nrr_percent",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "new_customer_percent",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "456e4d22-824d-4ab0-a3b1-6b65abdd9125",
+            "sourceColumn": "new_customer_percent",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "arr_percent",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "701fbc9e-fb72-424f-9241-e41d457d3a0b",
+            "sourceColumn": "arr_percent",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "85545a51-9204-4051-945a-106096c950b2",
+        "partitions": [
+          {
+            "name": "snowball_output1 2",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(\"C:\\Users\\ShivkeshPandey\\Downloads\\snowball_output1 2.csv\"),[Delimiter=\",\", Columns=21, Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"month_roll\", type date}, {\"period_type\", type text}, {\"total_customer_churn\", Int64.Type}, {\"total_product_churn\", Int64.Type}, {\"total_downsell\", Int64.Type}, {\"total_grr\", Int64.Type}, {\"total_upsell\", Int64.Type}, {\"total_cross_sell\", Int64.Type}, {\"total_nrr\", Int64.Type}, {\"total_new_customer\", Int64.Type}, {\"total_bop_arr\", Int64.Type}, {\"total_eop_arr\", Int64.Type}, {\"customer_churn_percent\", type text}, {\"product_churn_percent\", type text}, {\"downsell_percent\", type text}, {\"grr_percent\", type text}, {\"upsell_percent\", type text}, {\"cross_sell_percent\", type text}, {\"nrr_percent\", type text}, {\"new_customer_percent\", type text}, {\"arr_percent\", type text}})",
+                "in",
+                "    #\"Changed Type\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DateTableTemplate_35c20ff3-b277-44de-973a-534d575fca67",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "1a4fd7fc-83c3-4537-97b3-9dfd6d47bdbc",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "69f31380-d830-4113-9369-c57434e2d031",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "22cf12fe-86bc-49a6-b0eb-b79cda612bde",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "e0a67cc3-0a17-4a75-b877-7e4a9ac00c5b",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "d5450edc-3736-48af-8b2b-60cffb4a1c76",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "42a3a161-1bb9-408b-ac93-f901b3b7a8f6",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "971b6d64-9fa6-4500-b914-b6443d3bb4bd",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "1a50027e-12c6-4fe7-a8e6-245c084da066",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "a2b18299-2cbc-4522-90c8-e91ec7d02b4d",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "e1065453-1de3-4181-9241-b155dd76290b",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "f8fa58e1-2e3c-4b58-b41c-d7a7d5428d8f",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "2657e35f-3fe7-48b8-9b21-5c906f775b6e"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "b0a5c91b-162f-42ee-8102-e51d64a67080",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_35c20ff3-b277-44de-973a-534d575fca67",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "LocalDateTable_67894202-47c1-47e8-9ced-f7bd3145a3d0",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "ec78b58d-e65d-4268-bcb8-89bd9203a857",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "56436a30-1ab9-4a9e-9674-4d11bc0f5902",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "91374e19-f042-4eff-aa37-2d820ca62050",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "b5c91831-1567-4662-bdd4-0a9d84cd1bc0",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "addfac39-ad03-4077-a1e2-3f5dc0af25ba",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "40891603-7aed-4b63-8e38-f2dd83c32dc3",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "9c4c7e56-2d1d-4adf-aa1b-434f000bc094",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "d3097c66-474d-43e1-b2e7-be27b2370125",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "4eaa2883-9265-4b66-8af9-412e4be93f13",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "1bad04d0-f27f-4b2a-96ad-dc36c207ccea",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "48d2eed0-801c-4df1-8406-f63f4d33b6ca",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "6e021eff-c7f4-4d37-b19c-f019de3aa741"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "020df0c0-af34-4d88-9a48-6e9736a1b5a5",
+        "partitions": [
+          {
+            "name": "LocalDateTable_67894202-47c1-47e8-9ced-f7bd3145a3d0",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('snowball_output1 2'[month_roll])), 1, 1), Date(Year(MAX('snowball_output1 2'[month_roll])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      }
+    ]
+  }
+}
